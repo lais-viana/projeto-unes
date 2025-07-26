@@ -6,48 +6,56 @@
     <title>UNES - Página principal</title>
 
     <style>
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
 
-  a {
-    text-decoration: none;
-    color: #333;
-  }
+      a {
+        text-decoration: none;
+        color: #333;
+      }
 
-  table {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-  }
+      table {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+      }
 
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
 
-  td {
-    padding: 10px;
-  }
+      td {
+        padding: 10px;
+      }
 
-  /* Responsividade simples */
-  @media (max-width: 600px) {
-    td[align="right"] {
-      text-align: center;
-      display: block;
-      margin-top: 10px;
-    }
-
-    td[height="89"] {
-      text-align: center;
-      display: block;
-    }
-  }
-</style>
-
+      /* Responsividade simples */
+      @media (max-width: 600px) {
+        table {
+          width: 100%;
+          max-width: 900px;
+          margin: 0 auto;
+        }
+        tr:first-child {
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: space-between;
+          align-items: center;
+        }
+        tr:first-child td {
+          display: inline-block;
+          width: auto !important;
+          padding: 0 5px;
+        }
+        td[align="right"] {
+          text-align: right;
+        }
+      }
+    </style>
   </head>
   <body background="./imagens/fundo.png">
     <table width="900" align="center">
