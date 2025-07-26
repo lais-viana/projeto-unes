@@ -31,5 +31,6 @@ O site é composto por uma única página HTML com os seguintes elementos:
 * Criação de listas (`<ul>` e `<li>`)
 * Publicação de projeto no **GitHub Pages**
 * Uso do **Git** para versionamento e envio ao **GitHub**
+* Adicionei uma responsividade básica com CSS interno porque quis melhorar a visualização no mobile, mas isso não fazia parte do projeto original
 
 ---
