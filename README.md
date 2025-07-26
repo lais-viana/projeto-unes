@@ -12,7 +12,7 @@ Criar um site utilizando **apenas HTML**, **sem CSS externo**, e com a estrutura
 
 ## ⚠️ Observações
 
-> Embora o uso de tabelas para estruturação de layout seja considerado ultrapassado nas práticas modernas de desenvolvimento web, este projeto teve como **finalidade didática** explorar esse método, **focando exclusivamente na aplicação dos recursos de HTML**.
+Embora o uso de tabelas para estruturação de layout seja considerado ultrapassado nas práticas modernas de desenvolvimento web, este projeto teve como **finalidade didática** explorar esse método, **focando exclusivamente na aplicação dos recursos de HTML**.
 
 ## 📁 Estrutura do Projeto
 
