@@ -6,7 +6,7 @@ Este é um projeto desenvolvido como parte do curso **Desenvolvimento Web Comple
 
 ## 🎯 Objetivo
 
-Criar um site utilizando **apenas HTML**, **sem CSS externo**, e com a estrutura feita intencionalmente com **tabelas**, como uma forma de:
+Criar um site utilizando **apenas HTML**, **sem CSS externo** (com uso mínimo de CSS interno), e com a estrutura feita intencionalmente com **tabelas**, como uma forma de:
 
 * Praticar os fundamentos do HTML.
 * Compreender a construção de layout usando `<table>`.
