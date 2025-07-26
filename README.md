@@ -1,4 +1,6 @@
-# 📄 Projeto Unes:  HTML sem CSS externo
+# 📄 Projeto Unes: HTML sem CSS externo
+
+[👉 Veja o site publicado aqui](https://lais-viana.github.io/projeto-unes/)
 
 Este é um projeto desenvolvido como parte do curso **Desenvolvimento Web Completo - 20 cursos + 20 projetos**, com o objetivo de aplicar os conhecimentos adquiridos em HTML puro.
 
@@ -20,12 +22,14 @@ O site é composto por uma única página HTML com os seguintes elementos:
 
 * Cabeçalho com logotipo e navegação
 * Corpo principal com seções dispostas em células
-* Rodapé simples com informações básicas
+* Rodapé simples 
 
-## 📚 Aprendizados
+## 📚 Aprendizados e recursos usados
 
-* Uso de `<table>`, `<tr>` e `<td>` 
+* Uso de `<table>`, `<tr>` e `<td>` para estruturação de layout
 * Inserção de imagens e links dentro de células
+* Criação de listas (`<ul>` e `<li>`)
+* Publicação de projeto no **GitHub Pages**
+* Uso do **Git** para versionamento e envio ao **GitHub**
 
 ---
-
