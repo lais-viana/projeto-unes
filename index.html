@@ -34,25 +34,24 @@
       }
 
       /* Responsividade simples */
-      @media (max-width: 600px) {
-        table {
-          width: 100%;
-          max-width: 900px;
-          margin: 0 auto;
-        }
-        tr:first-child {
-          display: flex;
-          flex-wrap: nowrap;
-          justify-content: space-between;
-          align-items: center;
-        }
-        tr:first-child td {
-          display: inline-block;
-          width: auto !important;
-          padding: 0 5px;
-        }
-        td[align="right"] {
-          text-align: right;
+        @media (max-width: 600px) {
+    tr:first-child {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    tr:first-child td {
+      display: inline-block;
+      width: auto !important;
+      padding: 0 5px;
+      vertical-align: middle;
+    }
+  
+      td[align="right"] {
+        text-align: right;
+        white-space: nowrap;
         }
       }
     </style>
